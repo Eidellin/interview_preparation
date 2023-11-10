@@ -5,7 +5,7 @@ classification = concept learning methods dominate ML.
 
 often no convenient mathematical properties like regression
 
-=> more complicated to analyze
+&nbsp;&nbsp;&nbsp;&nbsp;=> more complicated to analyze
 
 the idea is to learn a "classifier" = usually a function mapping from an *input data* point to *one of a set of discrete outputs* = the **classes**
 
@@ -29,9 +29,9 @@ The linear equation will look like: $ax_1 + bx_2 + c = 0$
 
 We can define $a, b$ & $c$ such that:
 
-for any point above the line:
+&nbsp;&nbsp;&nbsp;&nbsp;for any point above the line:
 
-$ax_1 + bx_2 + c > 0$, vice versa.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ax_1 + bx_2 + c > 0$, vice versa.
 
 This type of classifier is called __linear classifier__.
 
@@ -40,9 +40,9 @@ Also a type of __discriminative learning algorithm__.
 ### Alternative way: __Generative Learning Algorithm__
 Instead of finding a discriminative line -> 
 
-focus one one class at a time => build a model = describing how that class looks like
+&nbsp;&nbsp;&nbsp;&nbsp;focus one one class at a time => build a model = describing how that class looks like
 
--> Do the same for the other class
+&nbsp;&nbsp;&nbsp;&nbsp;-> Do the same for the other class
 
 _Generavie vs. Discriminative Learning ALgorithm_
 
@@ -71,7 +71,7 @@ __Generative Algorithm__:
   - $p(x, y) = p(x|y)p(y)$
   - Learns the mechanism by which the data has been generated
 
-  To predict the output for sample $x$, in a **generative algorithm**, we have to estimate $p(y|x)$:
+&nbsp;&nbsp;&nbsp;&nbsp;To predict the output for sample $x$, in a **generative algorithm**, we have to estimate $p(y|x)$:
     
 $$p(y = 0|x) = \frac{p(x|y = 0)p(y = 0)}{p(x)}$$
     
@@ -109,6 +109,6 @@ The basic linear classifier is DESCRIBED by the **equation** $x^Tw = t$ & $w = p
 
 $\frac{p+n}{2}$ = "mid point of n and p" is on the decision boundary.
 
-=> $t = (\frac{p + n}{2})^T \cdot (p - n) = \frac{\|p\|^2 - \|n\|^2}{2}$
+&nbsp;&nbsp;&nbsp;&nbsp;=> $t = (\frac{p + n}{2})^T \cdot (p - n) = \frac{\|p\|^2 - \|n\|^2}{2}$
 
-  where $\|x\|$, denotes the length of vector $x$.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where $\|x\|$, denotes the length of vector $x$.
