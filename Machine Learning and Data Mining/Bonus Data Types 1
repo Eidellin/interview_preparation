@@ -1,0 +1,27 @@
+# Data Types
+
+## In the Machine Learning world, in general, two types of data are defined:
+
+### Numerical:
+Anything represented by numbers (e.g., integer, floating point)
+
+### Categorical:
+everything that is not numerical (e.g. discrete labeled groups)
+
+#### In general, for machine learning algorithms, **data has to be represented in numeric form**
+
+### Another Taxonomy of data types:
+#### 1. Irrelevant
+it might be represented with strings or numbers but has no relationship with the outcome (e.g. participants or code)
+#### 2. Nominal
+discrete values with no numerical relationship between different categories (e.g. animal types, colors, nationality)
+#### 3. Binary
+discrete data with only two possibilities (e.g cancerous vs. non-cancerous)
+#### 4. Ordinal
+discrete integers that can be ranked, but the relative distance between any two numbers can not be defined (e.g., students rank based on GPA)
+#### 5. Count
+discrete whole numbers without any negatives
+#### 6. Time
+a cyclical, repeating continuous form of data (e.g days, weeks)
+#### 7. Interval
+data that we can measure the distance between different values. (e.g., temperature, income)
